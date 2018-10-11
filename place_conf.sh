@@ -43,7 +43,7 @@ mv $TMP_CONF2 /host/etc/cni/net.d/${FILENAME2}
 echo "Wrote CNI config: $(cat /host/etc/cni/net.d/${FILENAME2})"
 
 FILENAME3=${CNI_CONF_NAME3:-30-pon3.conf}
-mv $TMP_CONF2 /host/etc/cni/net.d/${FILENAME3}
+mv $TMP_CONF3 /host/etc/cni/net.d/${FILENAME3}
 echo "Wrote CNI config: $(cat /host/etc/cni/net.d/${FILENAME3})"
 
 # Unless told otherwise, sleep forever.
