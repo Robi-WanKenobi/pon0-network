@@ -4,6 +4,8 @@
 # similar but a lot more than what we are doing here.
 #---------------------------------------------------------------------
 
+#EDITED TO ADD A NEW ONU/RG
+
 # Make sure to have mounted /host/opt/cni/bin /host/etc/cni/net.d
 # Make sure CNI_GENIE_NETWORK_CONFIG config map env is set.
 
